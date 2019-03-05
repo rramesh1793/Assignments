@@ -5,7 +5,6 @@
 
 #include <fstream>
 #include <iostream>
-//#include <time.h>
 using namespace std;
 
 ofstream out("data1.txt");
@@ -23,11 +22,11 @@ public:
 	int num_nodes;
 	node * head;
 	linked_list() { num_nodes = 0; head = nullptr; }
-	void make_random_list(int k);//create a linked list of 
-								 //k nodes with values in 0 ..99 randomly
+	void make_random_list(int k);//create a linked list of k nodes with values in 0 ..99 randomly
+								 
 
-	void new_make_random_list(int k, int m);//create a linked list of 
-											//k nodes with values in 0 .. m randomly
+	void new_make_random_list(int k, int m);//create a linked list of k nodes with values in 0 .. m randomly
+									
 
 	void print(); //Print values of all nodes from head node
 
